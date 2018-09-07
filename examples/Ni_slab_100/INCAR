@@ -1,0 +1,29 @@
+NCAR created by Atomic Simulation Environment
+ ENCUT = 400.000000
+ SIGMA = 0.200000
+ EDIFF = 1.00e-07
+ EDIFFG = -1.00e-03
+ SYMPREC = 1.0e-3
+ GGA = PE
+ ISPIN = 2
+ ISMEAR = -5
+ ISTART = 0
+ NELM = 300 
+ NELMIN = 6
+ NELMDL = -12
+ LORBIT = 11
+ NSW = 0
+ IBRION = -1
+ ISIF = 0
+ LCHARG = .TRUE.
+ LWAVE = .TRUE.
+ LASPH = .TRUE.
+ LVTOT = .TRUE.
+#### FINE GRID  #######
+ NEDOS    = 3000
+PREC = High
+IALGO = 48
+AMIX    =   0.04
+BMIX    =   0.01 ! almost zero, but 0 will crash some versions
+AMIX_MAG    =   0.4
+BMIX_MAG    =   0.1 
